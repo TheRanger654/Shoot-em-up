@@ -19,9 +19,9 @@ if (keyboard_check_released(ord("S")))
 }
 if (keyboard_check(ord("D")))
 {
-    Player.x += 10;
+    Player.x += 13;
 }
 if (keyboard_check(ord("A")))
 {
-    Player.x -= 10;
+    Player.x -= 13;
 }
